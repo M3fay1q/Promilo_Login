@@ -8,7 +8,7 @@ class ButtonPrimary extends StatelessWidget {
   const ButtonPrimary({Key? key, required this.text, required this.function})
       : super(key: key);
 
-  @override //check this
+  @override //check
   Widget build(BuildContext context) {
     return MaterialButton(
       onPressed: () {
